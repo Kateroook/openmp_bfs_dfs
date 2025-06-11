@@ -1,0 +1,3 @@
+C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/bfs_dfs_parallel.dir
+C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

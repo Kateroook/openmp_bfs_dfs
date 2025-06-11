@@ -1,0 +1,9 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/bfs_dfs_parallel.dir/main.cpp.obj: dyndep
+
+build CMakeFiles/bfs_dfs_parallel.dir/Graph.cpp.obj: dyndep
+
+build CMakeFiles/bfs_dfs_parallel.dir/GraphGenerator.cpp.obj: dyndep
+
+build CMakeFiles/bfs_dfs_parallel.dir/ParallelGraphTraversal.cpp.obj: dyndep
+

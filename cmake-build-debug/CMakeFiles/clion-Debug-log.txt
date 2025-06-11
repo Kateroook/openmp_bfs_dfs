@@ -1,0 +1,19 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\uni_labs\DPP\bfs_dfs_parallel -B C:\uni_labs\DPP\bfs_dfs_parallel\cmake-build-debug
+-- The C compiler identification is Clang 20.1.5
+-- The CXX compiler identification is Clang 20.1.5
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/clang64/bin/cc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/msys64/clang64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_C: -fopenmp=libomp (found version "5.1")
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1")
+-- Configuring done (11.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug

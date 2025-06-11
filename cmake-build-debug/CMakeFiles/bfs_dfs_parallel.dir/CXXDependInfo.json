@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug",
+	"dir-cur-src" : "C:/uni_labs/DPP/bfs_dfs_parallel",
+	"dir-top-bld" : "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug",
+	"dir-top-src" : "C:/uni_labs/DPP/bfs_dfs_parallel",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/bfs_dfs_parallel.dir"
+}

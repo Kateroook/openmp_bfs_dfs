@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles\\bfs_dfs_parallel.dir\\Graph.cpp.obj"
+    }
+  ],
+  "version": 1
+}

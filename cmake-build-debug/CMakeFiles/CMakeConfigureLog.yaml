@@ -1,0 +1,760 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/clang64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/clang64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_1becc
+        [1/2] C:\\msys64\\clang64\\bin\\cc.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_1becc.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         (in-process)
+         "C:/msys64/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_1becc.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"\x0d
+        clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu\x0d
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"\x0d
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d
+        #include "..." search starts here:\x0d
+        #include <...> search starts here:\x0d
+         C:/msys64/clang64/lib/clang/20/include\x0d
+         C:/msys64/clang64/include\x0d
+        End of search list.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -o cmTC_1becc.exe -Wl,--out-implib,libcmTC_1becc.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_1becc.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_1becc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d
+        LLD 20.1.5 (https://github.com/msys2/MINGW-packages bcd8653c7acb7a5273542d535802d957d8b840f2) (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/clang64/lib/clang/20/include]
+          add: [C:/msys64/clang64/include]
+        end of search list found
+        collapse include dir [C:/msys64/clang64/lib/clang/20/include] ==> [C:/msys64/clang64/lib/clang/20/include]
+        collapse include dir [C:/msys64/clang64/include] ==> [C:/msys64/clang64/include]
+        implicit include dirs: [C:/msys64/clang64/lib/clang/20/include;C:/msys64/clang64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_1becc]
+        ignore line: [[1/2] C:\\msys64\\clang64\\bin\\cc.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_1becc.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k080fx -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_1becc.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"\x0d]
+        ignore line: [clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu\x0d]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"\x0d]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d]
+        ignore line: [#include "..." search starts here:\x0d]
+        ignore line: [#include <...> search starts here:\x0d]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include\x0d]
+        ignore line: [ C:/msys64/clang64/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj -o cmTC_1becc.exe -Wl --out-implib libcmTC_1becc.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        link line: [ "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_1becc.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_1becc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d]
+          arg [C:/msys64/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_1becc.exe] ==> ignore
+          arg [C:/msys64/clang64/lib/crt2.o] ==> obj [C:/msys64/clang64/lib/crt2.o]
+          arg [C:/msys64/clang64/lib/crtbegin.o] ==> obj [C:/msys64/clang64/lib/crtbegin.o]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/clang64/lib] ==> dir [C:/msys64/clang64/lib]
+          arg [-LC:/msys64/clang64/lib/clang/20/lib/windows] ==> dir [C:/msys64/clang64/lib/clang/20/lib/windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1becc.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_1becc.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/clang64/lib/crtend.o] ==> obj [C:/msys64/clang64/lib/crtend.o]
+        linker tool for 'C': C:/msys64/clang64/bin/ld.lld
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/clang64/lib] ==> [C:/msys64/clang64/lib]
+        collapse library dir [C:/msys64/clang64/lib/clang/20/lib/windows] ==> [C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit libs: [mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/clang64/lib/crt2.o;C:/msys64/clang64/lib/crtbegin.o;C:/msys64/clang64/lib/crtend.o]
+        implicit dirs: [C:/msys64/clang64/x86_64-w64-mingw32/lib;C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib;C:/msys64/clang64/lib;C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/clang64/bin/ld.lld" "-v"
+      LLD 20.1.5 (https://github.com/msys2/MINGW-packages bcd8653c7acb7a5273542d535802d957d8b840f2) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_84654
+        [1/2] C:\\msys64\\clang64\\bin\\c++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_84654.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         (in-process)
+         "C:/msys64/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1 -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1 -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_84654.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d
+        #include "..." search starts here:\x0d
+        #include <...> search starts here:\x0d
+         C:/msys64/clang64/include/c++/v1\x0d
+         C:/msys64/clang64/lib/clang/20/include\x0d
+         C:/msys64/clang64/include\x0d
+        End of search list.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_84654.exe -Wl,--out-implib,libcmTC_84654.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_84654.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_84654.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d
+        LLD 20.1.5 (https://github.com/msys2/MINGW-packages bcd8653c7acb7a5273542d535802d957d8b840f2) (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/clang64/include/c++/v1]
+          add: [C:/msys64/clang64/lib/clang/20/include]
+          add: [C:/msys64/clang64/include]
+        end of search list found
+        collapse include dir [C:/msys64/clang64/include/c++/v1] ==> [C:/msys64/clang64/include/c++/v1]
+        collapse include dir [C:/msys64/clang64/lib/clang/20/include] ==> [C:/msys64/clang64/lib/clang/20/include]
+        collapse include dir [C:/msys64/clang64/include] ==> [C:/msys64/clang64/include]
+        implicit include dirs: [C:/msys64/clang64/include/c++/v1;C:/msys64/clang64/lib/clang/20/include;C:/msys64/clang64/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_84654]
+        ignore line: [[1/2] C:\\msys64\\clang64\\bin\\c++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_84654.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1 -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bmklb1 -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_84654.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d]
+        ignore line: [#include "..." search starts here:\x0d]
+        ignore line: [#include <...> search starts here:\x0d]
+        ignore line: [ C:/msys64/clang64/include/c++/v1\x0d]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include\x0d]
+        ignore line: [ C:/msys64/clang64/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_84654.exe -Wl --out-implib libcmTC_84654.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        link line: [ "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_84654.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows -v CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_84654.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d]
+          arg [C:/msys64/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_84654.exe] ==> ignore
+          arg [C:/msys64/clang64/lib/crt2.o] ==> obj [C:/msys64/clang64/lib/crt2.o]
+          arg [C:/msys64/clang64/lib/crtbegin.o] ==> obj [C:/msys64/clang64/lib/crtbegin.o]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/clang64/lib] ==> dir [C:/msys64/clang64/lib]
+          arg [-LC:/msys64/clang64/lib/clang/20/lib/windows] ==> dir [C:/msys64/clang64/lib/clang/20/lib/windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_84654.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_84654.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/clang64/lib/crtend.o] ==> obj [C:/msys64/clang64/lib/crtend.o]
+        linker tool for 'CXX': C:/msys64/clang64/bin/ld.lld
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/clang64/lib] ==> [C:/msys64/clang64/lib]
+        collapse library dir [C:/msys64/clang64/lib/clang/20/lib/windows] ==> [C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit libs: [c++;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/clang64/lib/crt2.o;C:/msys64/clang64/lib/crtbegin.o;C:/msys64/clang64/lib/crtend.o]
+        implicit dirs: [C:/msys64/clang64/x86_64-w64-mingw32/lib;C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib;C:/msys64/clang64/lib;C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/msys64/clang64/bin/ld.lld" "-v"
+      LLD 20.1.5 (https://github.com/msys2/MINGW-packages bcd8653c7acb7a5273542d535802d957d8b840f2) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e9ab0
+        [1/2] C:\\msys64\\clang64\\bin\\cc.exe   -fopenmp=libomp -v -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -MF CMakeFiles\\cmTC_e9ab0.dir\\OpenMPTryFlag.c.obj.d -o CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg/OpenMPTryFlag.c
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         (in-process)
+         "C:/msys64/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_e9ab0.dir\\\\OpenMPTryFlag.c.obj.d" -MT CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -sys-header-deps -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -ferror-limit 19 -fopenmp -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -x c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg/OpenMPTryFlag.c\x0d
+        clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu\x0d
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"\x0d
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d
+        #include "..." search starts here:\x0d
+        #include <...> search starts here:\x0d
+         C:/msys64/clang64/lib/clang/20/include\x0d
+         C:/msys64/clang64/include\x0d
+        End of search list.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\cc.exe -fopenmp=libomp -v  CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -o cmTC_e9ab0.exe -Wl,--out-implib,libcmTC_e9ab0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_e9ab0.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_e9ab0.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lomp -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:263 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_e9ab0]
+        ignore line: [[1/2] C:\\msys64\\clang64\\bin\\cc.exe   -fopenmp=libomp -v -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -MF CMakeFiles\\cmTC_e9ab0.dir\\OpenMPTryFlag.c.obj.d -o CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg/OpenMPTryFlag.c]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/clang64/bin/cc.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_e9ab0.dir\\\\OpenMPTryFlag.c.obj.d" -MT CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -sys-header-deps -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -ferror-limit 19 -fopenmp -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -x c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tth5fg/OpenMPTryFlag.c\x0d]
+        ignore line: [clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu\x0d]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"\x0d]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d]
+        ignore line: [#include "..." search starts here:\x0d]
+        ignore line: [#include <...> search starts here:\x0d]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include\x0d]
+        ignore line: [ C:/msys64/clang64/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\cc.exe -fopenmp=libomp -v  CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj -o cmTC_e9ab0.exe -Wl --out-implib libcmTC_e9ab0.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        link line: [ "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_e9ab0.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_e9ab0.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lomp -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d]
+          arg [C:/msys64/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_e9ab0.exe] ==> ignore
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/clang64/lib] ==> dir [C:/msys64/clang64/lib]
+          arg [-LC:/msys64/clang64/lib/clang/20/lib/windows] ==> dir [C:/msys64/clang64/lib/clang/20/lib/windows]
+          arg [CMakeFiles/cmTC_e9ab0.dir/OpenMPTryFlag.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_e9ab0.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lgdi32] ==> lib [gdi32]
+          arg [-lwinspool] ==> lib [winspool]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lole32] ==> lib [ole32]
+          arg [-loleaut32] ==> lib [oleaut32]
+          arg [-luuid] ==> lib [uuid]
+          arg [-lcomdlg32] ==> lib [comdlg32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lomp] ==> lib [omp]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/clang64/lib] ==> [C:/msys64/clang64/lib]
+        collapse library dir [C:/msys64/clang64/lib/clang/20/lib/windows] ==> [C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;omp;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/msys64/clang64/x86_64-w64-mingw32/lib;C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib;C:/msys64/clang64/lib;C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_16abb
+        [1/4] C:\\WINDOWS\\system32\\cmd.exe /C ""C:/msys64/clang64/bin/clang-scan-deps.exe" -format=p1689 -- C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -v -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -x c++ C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp -c -o CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj -resource-dir "C:/msys64/clang64/lib/clang/20" -MT CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi -MD -MF CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.d > CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.tmp && "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E rename CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.tmp CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi"
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\msys64\\clang64\\bin
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:\\msys64\\clang64\\bin
+        clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/usr/include"\x0d
+        #include "..." search starts here:\x0d
+        #include <...> search starts here:\x0d
+         C:\\msys64\\clang64/include/c++/v1\x0d
+         C:/msys64/clang64/lib/clang/20/include\x0d
+         C:\\msys64\\clang64/include\x0d
+        End of search list.\x0d
+        [2/4] "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_16abb.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=clang --dd=CMakeFiles/cmTC_16abb.dir/CXX.dd @CMakeFiles/cmTC_16abb.dir/CXX.dd.rsp
+        [3/4] C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -v -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -MF CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.d @CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.modmap -o CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         (in-process)
+         "C:/msys64/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_16abb.dir\\\\OpenMPTryFlag.cpp.obj.d" -MT CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -std=gnu++20 -fdeprecated-macro -ferror-limit 19 -fopenmp -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -x c++ C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp
+        clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d
+        #include "..." search starts here:\x0d
+        #include <...> search starts here:\x0d
+         C:/msys64/clang64/include/c++/v1\x0d
+         C:/msys64/clang64/lib/clang/20/include\x0d
+         C:/msys64/clang64/include\x0d
+        End of search list.\x0d
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\c++.exe -fopenmp=libomp -v  CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -o cmTC_16abb.exe -Wl,--out-implib,libcmTC_16abb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        clang version 20.1.5
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/msys64/clang64/bin
+         "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_16abb.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_16abb.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lc++ -lomp -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:263 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_16abb]
+        ignore line: [[1/4] C:\\WINDOWS\\system32\\cmd.exe /C ""C:/msys64/clang64/bin/clang-scan-deps.exe" -format=p1689 -- C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -v -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -x c++ C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp -c -o CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj -resource-dir "C:/msys64/clang64/lib/clang/20" -MT CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi -MD -MF CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.d > CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.tmp && "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E rename CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi.tmp CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.ddi"]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\msys64\\clang64\\bin]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\msys64\\clang64\\bin]
+        ignore line: [clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:\\msys64\\clang64/x86_64-w64-mingw32/usr/include"\x0d]
+        ignore line: [#include "..." search starts here:\x0d]
+        ignore line: [#include <...> search starts here:\x0d]
+        ignore line: [ C:\\msys64\\clang64/include/c++/v1\x0d]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include\x0d]
+        ignore line: [ C:\\msys64\\clang64/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/4] "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_16abb.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=clang --dd=CMakeFiles/cmTC_16abb.dir/CXX.dd @CMakeFiles/cmTC_16abb.dir/CXX.dd.rsp]
+        ignore line: [[3/4] C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -v -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -MF CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.d @CMakeFiles\\cmTC_16abb.dir\\OpenMPTryFlag.cpp.obj.modmap -o CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/msys64/clang64/bin/c++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm -v -fcoverage-compilation-dir=C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm -resource-dir C:/msys64/clang64/lib/clang/20 -dependency-file "CMakeFiles\\\\cmTC_16abb.dir\\\\OpenMPTryFlag.cpp.obj.d" -MT CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -sys-header-deps -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/msys64/clang64/include/c++/v1 -internal-isystem C:/msys64/clang64/lib/clang/20/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/clang64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/clang64/include -std=gnu++20 -fdeprecated-macro -ferror-limit 19 -fopenmp -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fno-implicit-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -x c++ C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ppm7hm/OpenMPTryFlag.cpp]
+        ignore line: [clang -cc1 version 20.1.5 based upon LLVM 20.1.5 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/clang64/x86_64-w64-mingw32/usr/include"\x0d]
+        ignore line: [#include "..." search starts here:\x0d]
+        ignore line: [#include <...> search starts here:\x0d]
+        ignore line: [ C:/msys64/clang64/include/c++/v1\x0d]
+        ignore line: [ C:/msys64/clang64/lib/clang/20/include\x0d]
+        ignore line: [ C:/msys64/clang64/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\c++.exe -fopenmp=libomp -v  CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj -o cmTC_16abb.exe -Wl --out-implib libcmTC_16abb.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [clang version 20.1.5]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/msys64/clang64/bin]
+        link line: [ "C:/msys64/clang64/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_16abb.exe C:/msys64/clang64/lib/crt2.o C:/msys64/clang64/lib/crtbegin.o -LC:/msys64/clang64/x86_64-w64-mingw32/lib -LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/clang64/lib -LC:/msys64/clang64/lib/clang/20/lib/windows CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_16abb.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lc++ -lomp -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/clang64/lib/crtend.o\x0d]
+          arg [C:/msys64/clang64/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_16abb.exe] ==> ignore
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/msys64/clang64/lib] ==> dir [C:/msys64/clang64/lib]
+          arg [-LC:/msys64/clang64/lib/clang/20/lib/windows] ==> dir [C:/msys64/clang64/lib/clang/20/lib/windows]
+          arg [CMakeFiles/cmTC_16abb.dir/OpenMPTryFlag.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_16abb.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lgdi32] ==> lib [gdi32]
+          arg [-lwinspool] ==> lib [winspool]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lole32] ==> lib [ole32]
+          arg [-loleaut32] ==> lib [oleaut32]
+          arg [-luuid] ==> lib [uuid]
+          arg [-lcomdlg32] ==> lib [comdlg32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lc++] ==> lib [c++]
+          arg [-lomp] ==> lib [omp]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/msys64/clang64/lib/clang/20/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib] ==> [C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/msys64/clang64/lib] ==> [C:/msys64/clang64/lib]
+        collapse library dir [C:/msys64/clang64/lib/clang/20/lib/windows] ==> [C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;c++;omp;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/msys64/clang64/x86_64-w64-mingw32/lib;C:/msys64/clang64/x86_64-w64-mingw32/mingw/lib;C:/msys64/clang64/lib;C:/msys64/clang64/lib/clang/20/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:421 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:561 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjjong"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjjong"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjjong'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f2b9a
+        [1/2] C:\\msys64\\clang64\\bin\\cc.exe   -fopenmp=libomp -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f2b9a.dir/OpenMPCheckVersion.c.obj -MF CMakeFiles\\cmTC_f2b9a.dir\\OpenMPCheckVersion.c.obj.d -o CMakeFiles/cmTC_f2b9a.dir/OpenMPCheckVersion.c.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vjjong/OpenMPCheckVersion.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\cc.exe -fopenmp=libomp  CMakeFiles/cmTC_f2b9a.dir/OpenMPCheckVersion.c.obj -o cmTC_f2b9a.exe -Wl,--out-implib,libcmTC_f2b9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:421 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindOpenMP.cmake:561 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-drkpfp"
+      binary: "C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-drkpfp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/clang64/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-drkpfp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_5dced
+        [1/4] C:\\WINDOWS\\system32\\cmd.exe /C ""C:/msys64/clang64/bin/clang-scan-deps.exe" -format=p1689 -- C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -x c++ C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-drkpfp/OpenMPCheckVersion.cpp -c -o CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj -resource-dir "C:/msys64/clang64/lib/clang/20" -MT CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.ddi -MD -MF CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.ddi.d > CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.ddi.tmp && "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E rename CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.ddi.tmp CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.ddi"
+        [2/4] "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_ninja_dyndep --tdi=CMakeFiles\\cmTC_5dced.dir\\CXXDependInfo.json --lang=CXX --modmapfmt=clang --dd=CMakeFiles/cmTC_5dced.dir/CXX.dd @CMakeFiles/cmTC_5dced.dir/CXX.dd.rsp
+        [3/4] C:\\msys64\\clang64\\bin\\c++.exe   -fopenmp=libomp -std=gnu++20 -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_5dced.dir/OpenMPCheckVersion.cpp.obj -MF CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.d @CMakeFiles\\cmTC_5dced.dir\\OpenMPCheckVersion.cpp.obj.modmap -o CMakeFiles/cmTC_5dced.dir/OpenMPCheckVersion.cpp.obj -c C:/uni_labs/DPP/bfs_dfs_parallel/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-drkpfp/OpenMPCheckVersion.cpp
+        [4/4] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\clang64\\bin\\c++.exe -fopenmp=libomp  CMakeFiles/cmTC_5dced.dir/OpenMPCheckVersion.cpp.obj -o cmTC_5dced.exe -Wl,--out-implib,libcmTC_5dced.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
